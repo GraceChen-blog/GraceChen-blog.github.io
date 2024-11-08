@@ -9254,14 +9254,24 @@ body.okayNav-loaded {
     font-size: 15px !important;
     /*letter-spacing: 1px !important;*/
   }
+  .title4{
+    font-size: 12px !important;
+    /*letter-spacing: 1px !important;*/
+  }
   .content{
     padding: 0 10px !important;
   }
+  .article-list .article-title {
+    font-size: 16px !important;
+  }
+}
+.article-list .article-title {
+  color: #0a6ebd !important;
 }
 
 .main{
   margin: 0px !important;
-  margin-top: 80px !important;
+  margin-top: 70px !important;
   width: 100%;
 }
 .content{
