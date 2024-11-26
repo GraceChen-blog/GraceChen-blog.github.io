@@ -9263,8 +9263,9 @@ body.okayNav-loaded {
     font-size: 27px !important;
     letter-spacing: 1px !important;
   }
-  .title3{
+  .o-main .title3{
     font-size: 15px !important;
+    text-align: left !important;
     /*letter-spacing: 1px !important;*/
   }
   .title4{
