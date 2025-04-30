@@ -1,0 +1,56 @@
+/* Copyright Notice Styles */
+.copyright-notice {
+  position: relative;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #0073e6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.copyright-notice:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.copyright-notice .post-copyright {
+  margin: 0;
+  padding: 0;
+}
+
+.copyright-notice .post-copyright li {
+  padding: 8px 0;
+  color: #666;
+  line-height: 1.6;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.copyright-notice .post-copyright li:not(:last-child) {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.copyright-notice .post-copyright li i {
+  margin-right: 10px;
+  font-size: 1.1em;
+  color: #0073e6;
+}
+
+.copyright-notice .post-copyright li strong {
+  margin-right: 10px;
+  color: #333;
+}
+
+.copyright-notice .post-copyright li a {
+  color: #0073e6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.copyright-notice .post-copyright li a:hover {
+  color: #005bb5;
+  text-decoration: underline;
+} 
