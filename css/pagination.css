@@ -1,0 +1,39 @@
+#book-pagination-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 2em 0;
+    flex-wrap: wrap;
+}
+
+#book-pagination-controls button {
+    padding: 4px 8px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#book-pagination-controls button:hover:not(:disabled) {
+    background-color: #007acc;
+    color: white;
+    border-color: #007acc;
+}
+
+#book-pagination-controls button:disabled {
+    background-color: #007acc;
+    color: white;
+    border-color: #007acc;
+    cursor: default;
+    font-weight: bold;
+}
+
+#book-pagination-controls input[type="number"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}

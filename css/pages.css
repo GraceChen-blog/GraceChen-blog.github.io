@@ -1,0 +1,59 @@
+p:has(img) {
+    text-align: center;
+}
+
+p:not(:has(img)) {
+    text-indent: 2em;
+}
+
+ol {
+    margin-left:4em!important
+}
+
+ol li p {
+    text-indent: 0;
+}
+
+img {
+    max-width: 100%!important;
+    height: auto!important;   
+    display: block!important; 
+    margin: 0 auto!important; 
+}
+
+p:has(> strong:only-child):not(.skip-center) {
+    text-indent: 0;
+    text-align: center;
+    font-size: 22px
+}
+
+.copyright-info {
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #0073e6;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.copyright-info p {
+    margin: 0.5rem 0;
+    color: #666;
+    line-height: 1.6;
+    text-indent: 0;
+}
+
+.copyright-info .author {
+    font-weight: bold;
+    color: #333;
+}
+
+.copyright-info .publisher {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.copyright-notice {
+    display: none;
+}
