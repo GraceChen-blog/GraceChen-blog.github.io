@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
         pages.push(1);
         const offset = window.innerWidth < 768 ? 1 : 2;
         if (current > 4) pages.push("...");
-        for (let i = Math.max(offset, current - offset); i <= Math.min(total - 1, current + offset); i++) {
+        for (let i = Math.max(2, current - offset); i <= Math.min(total - 1, current + offset); i++) {
           pages.push(i);
         }
         if (current < total - 3) pages.push("...");
