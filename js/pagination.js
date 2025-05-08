@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let i = Math.max(2, current - offset); i <= Math.min(total - 1, current + offset); i++) {
           pages.push(i);
         }
-        if (current < total - 3) pages.push("...");
+        if (current < total - 1 - offset) pages.push("...");
         pages.push(total);
       }
       return pages;
